@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sleuth-demo
+  zipkin:
+    base-url: http://172.28.88.84:9411
+    sender:
+      type: WEB
+  sleuth:
+    sampler:
+      probability: 1
