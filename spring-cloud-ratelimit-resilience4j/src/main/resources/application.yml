@@ -1,0 +1,11 @@
+resilience4j:
+  ratelimiter:
+    configs:
+      default:
+        limitForPeriod: 2
+        limitRefreshPeriod: 1s
+        # 限流等待时间，当配置为0s时，快速失败抛出异常，触发fallbackMethod方法
+        timeoutDuration: 1s
+    instances:
+      hello-server:
+        baseConfig: default
