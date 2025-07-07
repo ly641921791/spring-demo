@@ -1,0 +1,8 @@
+resilience4j:
+  circuitbreaker:
+    instances:
+      myCircuitBreaker:  # 自定义实例名称
+        slidingWindowSize: 10       # 统计最近3次调用（滑动窗口大小）
+        failureRateThreshold: 50  # 失败率≥100%时熔断（即3次全失败）
+        waitDurationInOpenState: 5s  # 熔断后保持开启30秒（之后进入半开状态）
+        permittedNumberOfCallsInHalfOpenState: 2  # 半开状态允许2次试探请求

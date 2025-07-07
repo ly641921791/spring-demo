@@ -15,6 +15,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
+        <module>spring-cloud-circuitbreaker-resilience4j</module>
         <module>spring-cloud-ratelimit-resilience4j</module>
         <module>spring-cloud-trace-sleuth</module>
         <module>spring-cloud-trace-micrometer</module>
