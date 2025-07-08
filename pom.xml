@@ -20,6 +20,7 @@
         <module>spring-cloud-trace-sleuth</module>
         <module>spring-cloud-trace-skywalking</module>
         <module>spring-cloud-trace-micrometer</module>
+        <module>spring-boot-retry</module>
     </modules>
 
     <properties>
