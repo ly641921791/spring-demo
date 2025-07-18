@@ -1,0 +1,9 @@
+spring:
+  sql:
+    init:
+      mode: always
+      schema-locations:
+        - 'classpath:schema.sql'
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
