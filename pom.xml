@@ -16,6 +16,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-ai-ollama-deepseek</module>
+        <module>spring-boot-actuator-health</module>
+        <module>spring-boot-actuator-metrics</module>
         <module>spring-boot-monitor-hertzbeat</module>
         <module>spring-boot-monitor-prometheus</module>
         <module>spring-boot-mybatis-interceptor</module>
