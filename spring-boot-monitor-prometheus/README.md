@@ -37,4 +37,4 @@ podman run -d --name grafana -p 3000:3000 docker.1ms.run/grafana/grafana:12.0.2
 访问127.0.0.1:3000，默认账号密码：admin/admin，创建数据源，选择prometheus，填写prometheus地址，保存
 由于使用了同一个宿主机创建两个容器，可以通过prometheus地址可以配置为：http://host.containers.internal:9090
 
-然后新增Dashboards，填写具体监控配置，选择刚刚创建的数据源
+然后新增Dashboards，填写具体监控配置，可以直接使用21319监控模板，选择刚刚创建的数据源
