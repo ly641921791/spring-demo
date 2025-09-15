@@ -1,0 +1,14 @@
+spring:
+  ai:
+    ollama:
+      base-url: http://127.0.0.1:11434
+      # 使用ollama分别启动下面2个模型
+      chat:
+        model: deepseek-r1:8b
+      embedding:
+        model: nomic-embed-text:latest
+    vectorstore:
+      elasticsearch:
+        index-name: spring-ai-rag-elasticsearch-index
+        similarity: cosine
+        dimensions: 1536

@@ -16,6 +16,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-ai-ollama-deepseek</module>
+        <module>spring-ai-rag-elasticsearch</module>
         <module>spring-boot-actuator-health</module>
         <module>spring-boot-actuator-metrics</module>
         <module>spring-boot-cache-multi</module>
