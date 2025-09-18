@@ -1,0 +1,12 @@
+spring:
+  ai:
+    image:
+      observations:
+        log-prompt: true
+    openai:
+      chat:
+        options:
+          model: GLM-4.5-Flash
+      image:
+        options:
+          model: cogview-3-flash
