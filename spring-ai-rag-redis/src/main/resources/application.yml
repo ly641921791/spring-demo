@@ -1,0 +1,12 @@
+spring:
+  ai:
+    ollama:
+      chat:
+        options:
+          model: deepseek-r1:8b
+      embedding:
+        options:
+          model: nomic-embed-text:v1.5
+    vectorstore:
+      observations:
+        log-query-response: true
