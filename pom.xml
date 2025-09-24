@@ -26,6 +26,7 @@
         <module>spring-boot-monitor-prometheus</module>
         <module>spring-boot-mybatis-interceptor</module>
         <module>spring-boot-mybatis-plus-injector</module>
+        <module>spring-boot-security-captcha</module>
         <module>spring-cloud-circuitbreaker-hystrix</module>
         <module>spring-cloud-circuitbreaker-resilience4j</module>
         <module>spring-cloud-ratelimit-base</module>
