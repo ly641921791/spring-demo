@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: mcp-sse-server
+  ai:
+    mcp:
+      server:
+        name: spring-ai-mcp-weather
+  main:
+    banner-mode: OFF
+
+logging:
+  pattern:
+    console: ''
+  file:
+    name: ./mcp-weather-stdio-server.log
+  level:
+    root: INFO

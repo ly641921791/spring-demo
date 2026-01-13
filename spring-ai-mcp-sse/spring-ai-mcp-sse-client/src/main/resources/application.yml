@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: mcp-sse-client
+  main:
+    web-application-type: NONE
+  ai:
+    chat:
+      client:
+        observations:
+          log-prompt: true
+          log-completion: true
+    openai:
+      base-url: https://ai.gitee.com
+      api-key: '自己的密钥'
+      chat:
+        options:
+          model: Qwen3-8B
+      embedding:
+        options:
+          model: Qwen3-Embedding-8B
+    mcp:
+      client:
+        sse:
+          connections:
+            server1:
+              url: http://localhost:8081
+              sse-endpoint: /sse
