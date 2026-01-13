@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "spring-ai-mcp-weather": {
+      "command": "java",
+      "args": [
+        "-Dspring.ai.mcp.server.transport=STDIO",
+        "-jar",
+        "/Users/kiy/IdeaProjects/spring-demo/spring-ai-mcp-stdio/spring-ai-mcp-stdio-server/target/spring-ai-mcp-stdio-server-1.0-SNAPSHOT.jar"
+      ]
+    }
+  }
+}
