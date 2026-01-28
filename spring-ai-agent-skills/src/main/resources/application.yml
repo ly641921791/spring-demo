@@ -1,0 +1,16 @@
+spring:
+  ai:
+    chat:
+      client:
+        observations:
+          log-prompt: true
+          log-completion: true
+    openai:
+      base-url: https://ai.gitee.com
+      api-key: '自己的密钥'
+      chat:
+        options:
+          model: GLM-4.7-Flash
+logging:
+  level:
+    'org.springframework.ai': debug

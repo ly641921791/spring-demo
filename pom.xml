@@ -15,6 +15,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
+        <module>spring-ai-agent-skills</module>
         <module>spring-ai-mcp-sse</module>
         <module>spring-ai-mcp-stdio</module>
         <module>spring-ai-ollama-deepseek</module>
